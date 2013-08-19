@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 # ruby '1.9.3'
 
-gem "slim", '~> 1.3.9'
+gem "slim", '~> 2.0.1'
 
 gem "middleman", "~>3.1.4"
 gem "middleman-deploy"
