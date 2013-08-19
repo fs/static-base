@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+git pull origin master
+
+bin/middleman build
+bin/middleman deploy
