@@ -15,4 +15,4 @@ gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
 gem 'slim', '~> 2.0.1'
 
 gem 'rails-assets-normalize-css'
-
+gem 'rails-assets-modernizr'
