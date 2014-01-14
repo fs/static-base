@@ -17,13 +17,11 @@ friends:
 
 Now, anywhere in our template files, we will have access to this data:
 
-``` html
-<h1>Friends</h1>
-<ol>
-  <% data.people.friends.each do |f| %>
-  <li><%= f %></li>
-  <% end %>
-</ol>
+``` slim
+h1 Friends
+  ol
+    - data.people.friends.each do |friend|
+      li = friend
 ```
 
 Which will render:
@@ -37,16 +35,8 @@ Which will render:
 </ol>
 ```
 
-Notice that the name of the `.yml` file (people) is the name of the object which stores the data in your template: `data.people`. This works for subdirectories as well. If you have a file `data/people/tom.yml`, you can access it with `data.people.tom`.
+Notice that the name of the `.yml` file (people) is the name of the object which
+stores the data in your template: `data.people`.
 
-You can use JSON to store your data instead of YAML. The above example could be `data/people.json` instead:
-
-``` json
-{
-  "friends": [
-    "Tom",
-    "Dick",
-    "Harry"
-  ]
-}
-```
+This works for subdirectories as well.
+If you have a file `data/people/tom.yml`, you can access it with `data.people.tom`.
