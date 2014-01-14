@@ -50,6 +50,8 @@ GEM
       middleman-core (>= 3.0.0)
       net-sftp
       ptools
+    middleman-google-analytics (0.0.3)
+      middleman-core (>= 3.0.6)
     middleman-sprockets (3.2.0)
       middleman-core (~> 3.2)
       sprockets (~> 2.1)
@@ -97,6 +99,7 @@ PLATFORMS
 DEPENDENCIES
   middleman
   middleman-deploy
+  middleman-google-analytics
   modernizr-rails
   rails-assets-normalize-css
   slim

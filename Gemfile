@@ -5,6 +5,7 @@ ruby '2.1.0'
 
 gem 'middleman'
 gem 'middleman-deploy'
+gem 'middleman-google-analytics'
 
 gem 'slim'
 
