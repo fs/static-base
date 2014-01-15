@@ -2,14 +2,18 @@
 
 ![](https://semaphoreapp.com/api/v1/projects/09043b51-d38e-4bb9-ac3e-385ef0aebaeb/120867/shields_badge.png)
 
-Minimalistic site on middleman that uses slim, sass and coffeescript
+Minimalistic Middleman template that uses slim, sass and coffeescript.
 
-## Prepare development environment
+## Installation & usage
 
 ```bash
-  git clone git@github.com:fs/static-base.git sitename
-  cd sitename
-  bin/bootstrap
+# Clone the template
+git clone git@github.com:fs/static-base.git ~/.middleman/fs-static-base
+
+# Scaffold a project using static-base template
+middleman init sitename --template=fs-static-base
+cd sitename
+bin/bootstrap
 ```
 
 ## Development workflow
