@@ -1,5 +1,7 @@
 # Source code for static site
 
+![](https://semaphoreapp.com/api/v1/projects/09043b51-d38e-4bb9-ac3e-385ef0aebaeb/120867/shields_badge.png)
+
 Minimalistic site on middleman that uses slim, sass and coffeescript
 
 ###Prepare development environment###
