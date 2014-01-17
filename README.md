@@ -2,7 +2,7 @@
 
 Minimalistic site on middleman that uses slim, sass and coffeescript
 
-###Prepare development environment###
+## Prepare development environment
 
 ```bash
   git clone git@github.com:fs/static-base.git sitename
