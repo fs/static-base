@@ -1,21 +1,6 @@
 /*
+ *= require_self
  *= require normalize-css
- *= require _main
+ *= require bootstrap
+ *= require_tree .
  */
-
-div.cake {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 450px;
-  width: 600px;
-}
-
-div.fork {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 500px;
-  width: 600px;
-  display: none;
-}
