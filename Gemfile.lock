@@ -5,6 +5,8 @@ GEM
     activesupport (3.2.16)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    autoprefixer-rails (0.8.20131213)
+      execjs
     chunky_png (1.2.9)
     coffee-script (2.2.0)
       coffee-script-source
@@ -37,6 +39,9 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.1.20)
       uglifier (~> 2.1.0)
+    middleman-autoprefixer (0.2.3)
+      autoprefixer-rails (~> 0.8)
+      middleman-core
     middleman-core (3.2.1)
       activesupport (~> 3.2.6)
       bundler (~> 1.1)
@@ -101,6 +106,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman
+  middleman-autoprefixer
   middleman-deploy
   middleman-google-analytics
   modernizr-rails
