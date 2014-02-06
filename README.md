@@ -53,7 +53,6 @@ bin/build
 git config --global user.email "firstname.lastname+semaphore@flatstack.com"
 git config --global user.name "Semaphore"
 bin/bootstrap
-bin/build
 bin/deploy
 ```
 * SSH key: specify your ssh key or unique per project.
