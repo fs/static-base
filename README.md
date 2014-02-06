@@ -44,7 +44,7 @@ bin/build
 
 ### Deploy automatically to Github pages
 
-* Deploy type: `Capistrano`
+* Deploy type: `General`
 * Deployment Strategy: `Manual`
 * Deploy commands:
 
@@ -52,6 +52,7 @@ bin/build
 # git identity required for git push
 git config --global user.email "firstname.lastname+semaphore@flatstack.com"
 git config --global user.name "Semaphore"
+bin/bootstrap
 bin/deploy
 ```
 * SSH key: specify your ssh key or unique per project.
