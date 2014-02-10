@@ -4,7 +4,7 @@ set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 set :partials_dir, 'partials'
 
-activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
+activate :autoprefixer, browsers: ['last 2 versions', 'ie 9']
 
 configure :build do
   activate :minify_css
