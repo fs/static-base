@@ -2,5 +2,4 @@
 
 set -e
 
-bin/middleman build
 bin/middleman deploy
