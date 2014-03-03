@@ -11,7 +11,7 @@ Minimalistic Middleman template that uses slim, sass, coffeescript and autoprefi
 git clone git@github.com:fs/static-base.git ~/.middleman/fs-static-base
 
 # Scaffold a project using static-base template
-middleman init sitename --template=fs-static-base
+middleman init sitename --template=fs-static-base --skip-bundle
 cd sitename
 bin/bootstrap
 ```
