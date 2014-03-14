@@ -7,3 +7,5 @@ rm -f .bundle/config
 
 bundle check --path .bundle > /dev/null 2>&1 ||
   bundle install --path=.bundle
+
+npm install

@@ -1,0 +1,19 @@
+{
+  "name": "static-base",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fs/static-base.git"
+  },
+  "author": "",
+  "homepage": "https://github.com/fs/static-base",
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "grunt-uncss": "~0.2.1",
+    "grunt-lib-contrib": "~0.7.1",
+    "grunt-dom-munger": "~3.4.0"
+  }
+}
