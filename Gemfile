@@ -9,8 +9,8 @@ gem 'middleman-google-analytics'
 gem 'middleman-autoprefixer'
 
 gem 'slim'
+gem 'scss-lint'
 
 gem 'rails-assets-normalize-css'
 gem 'modernizr-rails', require: false
-
 gem 'rails-assets-bootstrap'
