@@ -2,7 +2,7 @@
 
 ![](https://semaphoreapp.com/api/v1/projects/09043b51-d38e-4bb9-ac3e-385ef0aebaeb/120867/shields_badge.png)
 
-Minimalistic Middleman template that uses slim, sass, coffeescript and autoprefixer.
+Minimalistic Middleman template that uses slim, sass, coffeescript, autoprefixer and livereload.
 
 ## Installation & usage
 
