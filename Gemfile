@@ -5,6 +5,7 @@ ruby '2.1.0'
 
 gem 'middleman-core'
 gem 'middleman-sprockets'
+gem 'middleman-livereload'
 gem 'middleman-deploy'
 gem 'middleman-google-analytics'
 gem 'middleman-autoprefixer'

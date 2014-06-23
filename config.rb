@@ -5,6 +5,7 @@ set :fonts_dir, 'assets/fonts'
 set :partials_dir, 'partials'
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 9']
+activate :livereload
 
 configure :build do
   activate :minify_css
