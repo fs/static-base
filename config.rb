@@ -7,6 +7,9 @@ set :partials_dir, 'partials'
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 9']
 activate :livereload
 
+# https://github.com/middleman/middleman/issues/742
+proxy '/CNAME', '/CNAME.html', layout: false, ignore: true
+
 configure :build do
   activate :minify_css
   activate :minify_javascript
@@ -22,6 +25,7 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
+  deploy.remote = ENV['GIT_REMOTE']
 end
 
 # Silence I18n warning, http://stackoverflow.com/a/20381730
