@@ -24,19 +24,14 @@ bin/bootstrap
 
 ## Manual deploy to Github pages
 
-Setup correct git remote variable:
+Setup correct git remote and target host using environment variable:
 
 ```bash
 export GIT_REMOTE=git@github.com:fs/static-base.git
+export TARGET_HOST=example.com
 ```
 
 Run `bin/deploy`
-
-Make sure you have specified correct host variable:
-
-```bash
-export TARGET_HOST=example.com
-```
 
 ## Semaphore integration
 
