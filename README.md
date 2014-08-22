@@ -24,9 +24,14 @@ bin/bootstrap
 
 ## Manual deploy to Github pages
 
-Run `bin/deploy`
+Setup correct git remote and target host using environment variable:
 
-Make sure you have specified correct `source/CNAME`
+```bash
+export GIT_REMOTE=git@github.com:fs/static-base.git
+export TARGET_HOST=example.com
+```
+
+Run `bin/deploy`
 
 ## Semaphore integration
 
@@ -45,13 +50,15 @@ bin/build
 ### Deploy automatically to Github pages
 
 * Deploy type: `General`
-* Deployment Strategy: `Manual`
+* Deployment Strategy: `Automatic`
 * Deploy commands:
 
 ```bash
 # git identity required for git push
 git config --global user.email "firstname.lastname+semaphore@flatstack.com"
 git config --global user.name "Semaphore"
+export GIT_REMOTE=git@github.com:fs/static-base.git
+export TARGET_HOST=example.com
 bin/bootstrap
 bin/deploy
 ```
