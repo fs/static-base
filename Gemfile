@@ -17,6 +17,5 @@ gem 'kramdown'
 gem 'uglifier'
 gem 'scss-lint'
 
-gem 'rails-assets-normalize-css'
 gem 'modernizr-rails', require: false
 gem 'bootstrap-sass'
