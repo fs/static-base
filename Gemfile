@@ -19,4 +19,4 @@ gem 'scss-lint'
 
 gem 'rails-assets-normalize-css'
 gem 'modernizr-rails', require: false
-gem 'rails-assets-bootstrap'
+gem 'bootstrap-sass'

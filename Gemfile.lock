@@ -10,6 +10,8 @@ GEM
       tzinfo (~> 0.3.37)
     autoprefixer-rails (1.1.20140410)
       execjs
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -81,9 +83,6 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails-assets-bootstrap (3.1.1)
-      rails-assets-jquery (>= 1.9.0)
-    rails-assets-jquery (2.1.0)
     rails-assets-normalize-css (3.0.1)
     rainbow (2.0.0)
     rb-fsevent (0.9.4)
@@ -122,6 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   coffee-script
   kramdown
   middleman-autoprefixer
@@ -131,7 +131,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-sprockets
   modernizr-rails
-  rails-assets-bootstrap
   rails-assets-normalize-css
   sass
   scss-lint
