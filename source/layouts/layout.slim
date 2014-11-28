@@ -1,4 +1,4 @@
-DOCTYPE html
+doctype html
 html
   head
     meta charset="utf-8"
@@ -8,14 +8,13 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1"
 
     == stylesheet_link_tag "application"
-    <!--[if lt IE 9]>
-    script src="//html5shim.googlecode.com/svn/trunk/html5.js"
-    <![endif]-->
+    /[if lt IE 9]
+      script src="//html5shim.googlecode.com/svn/trunk/html5.js"
   body
 
     = yield
 
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-    == javascript_include_tag "application"
+    = javascript_include_tag "application"
     - if build?
-      == google_analytics_tag
+      = google_analytics_tag
