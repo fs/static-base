@@ -1,8 +1,9 @@
-# Source code for static site
+# Static Base
 
 ![](https://semaphoreapp.com/api/v1/projects/09043b51-d38e-4bb9-ac3e-385ef0aebaeb/120867/shields_badge.png)
 
-Minimalistic Middleman template that uses slim, sass, coffeescript, autoprefixer and livereload.
+Static Base is a useful starter kit to help you develop static sites (or prototypes) faster.
+It's a [Middleman](https://middlemanapp.com/) template that uses Slim, Sass, CoffeeScript, Autoprefixer and Livereload.
 
 ## Installation & usage
 
@@ -20,9 +21,9 @@ bin/bootstrap
 
 1. Start server with `bin/server`
 2. Make changes in the `source` folder
-3. Checkout results in the browser on `http://localhost:4567`
+3. Check out results in the browser on `http://localhost:4567`
 
-## Manual deploy to Github pages
+## Manual deploy to Github Pages
 
 Setup correct git remote and target host using environment variable:
 
@@ -37,8 +38,8 @@ Run `bin/deploy`
 
 ### Test build
 
-You can use [Semaphore](https://semaphoreapp.com) to make sure you source code
-will be build successfully.
+You can use [Semaphore](https://semaphoreci.com) to make sure your source code
+will be built successfully.
 
 Add these build commands:
 
@@ -47,7 +48,7 @@ bin/bootstrap
 bin/build
 ```
 
-### Deploy automatically to Github pages
+### Deploy automatically to Github Pages
 
 * Deploy type: `General`
 * Deployment Strategy: `Automatic`
