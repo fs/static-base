@@ -9,6 +9,7 @@ gem 'middleman-livereload'
 gem 'middleman-deploy'
 gem 'middleman-google-analytics'
 gem 'middleman-autoprefixer'
+gem 'middleman-imageoptim'
 
 gem 'slim'
 gem 'sass'
