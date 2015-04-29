@@ -14,7 +14,7 @@ git --depth 1 clone git@github.com:fs/static-base.git ~/.middleman/fs-static-bas
 # Scaffold a project using static-base template
 middleman init sitename --template=fs-static-base --skip-bundle
 cd sitename
-bin/bootstrap
+bin/setup
 ```
 
 ## Development workflow
@@ -44,7 +44,7 @@ will be built successfully.
 Add these build commands:
 
 ```bash
-bin/bootstrap
+bin/setup
 bin/build
 ```
 
@@ -60,7 +60,7 @@ git config --global user.email "firstname.lastname+semaphore@flatstack.com"
 git config --global user.name "Semaphore"
 export GIT_REMOTE=git@github.com:fs/static-base.git
 export TARGET_HOST=example.com
-bin/bootstrap
+bin/setup
 bin/deploy
 ```
 * SSH key: specify your ssh key or unique per project.
