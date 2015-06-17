@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
-ruby '2.1.5'
+ruby '2.2.2'
 
 gem 'middleman-core'
 gem 'middleman-sprockets'
