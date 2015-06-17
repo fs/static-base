@@ -1,14 +1,14 @@
-set :js_dir, 'assets/javascripts'
-set :css_dir, 'assets/stylesheets'
-set :images_dir, 'assets/images'
-set :fonts_dir, 'assets/fonts'
-set :partials_dir, 'partials'
+set :js_dir, "assets/javascripts"
+set :css_dir, "assets/stylesheets"
+set :images_dir, "assets/images"
+set :fonts_dir, "assets/fonts"
+set :partials_dir, "partials"
 
-activate :autoprefixer, browsers: ['last 2 versions', 'ie 9']
+activate :autoprefixer, browsers: ["last 2 versions", "ie 9"]
 activate :livereload
 
 # https://github.com/middleman/middleman/issues/742
-proxy '/CNAME', '/CNAME.html', layout: false, ignore: true
+proxy "/CNAME", "/CNAME.html", layout: false, ignore: true
 
 configure :build do
   activate :minify_css
@@ -19,12 +19,12 @@ configure :build do
 
   # Only Including Tracking Code in Builds
   activate :google_analytics do |ga|
-    ga.tracking_id = 'UA-XXXXXXX-X'
+    ga.tracking_id = "UA-XXXXXXX-X"
   end
 end
 
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
-  deploy.remote = ENV['GIT_REMOTE']
+  deploy.remote = ENV["GIT_REMOTE"]
 end

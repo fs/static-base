@@ -16,7 +16,7 @@ Now, we can include this partial in the default layout using the `partial` metho
 ```slim
 body
   = yield
-  = partial 'footer'
+  = partial "footer"
 ```
 
 More info in the [Middleman guides](http://middlemanapp.com/basics/templates/#toc_6)
