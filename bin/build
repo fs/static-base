@@ -2,6 +2,5 @@
 
 set -e
 
-csscomb -c .csscomb.json source/assets/stylesheets
 bin/scss-lint --config scss-lint.yml
 bin/middleman build
