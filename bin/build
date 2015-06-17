@@ -2,5 +2,5 @@
 
 set -e
 
-bin/scss-lint source/assets/stylesheets
+bin/scss-lint --config scss-lint.yml
 bin/middleman build
