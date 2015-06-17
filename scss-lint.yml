@@ -8,6 +8,7 @@ linters:
 
   StringQuotes:
     style: double_quotes
+
   PropertySortOrder:
     order:
       - position
