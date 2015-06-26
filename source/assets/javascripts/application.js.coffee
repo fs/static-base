@@ -1,4 +1,5 @@
+//= require foundation
 //= require_self
-//= require modernizr
-//= require bootstrap
 //= require_tree .
+
+$(document).foundation()

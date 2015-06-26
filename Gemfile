@@ -17,5 +17,4 @@ gem "kramdown"
 gem "uglifier"
 gem "scss-lint"
 
-gem "modernizr-rails", require: false
-gem "bootstrap-sass"
+gem "foundation-rails", require: false
