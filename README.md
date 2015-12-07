@@ -72,4 +72,4 @@ Static Base is maintained by [Timur Vafin](http://github.com/timurvafin).
 It was written by [Flatstack](http://www.flatstack.com) with the help of our
 [contributors](http://github.com/fs/static-base/contributors).
 
-[<img src="http://www.flatstack.com/logo.svg" width="250"/>](http://www.flatstack.com)
+[<img src="http://www.flatstack.com/logo.svg" width="100"/>](http://www.flatstack.com)
