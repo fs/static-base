@@ -1,0 +1,4 @@
+Merge pull request #62 from maratnasyrov/new-logo
+
+Add new logo to the README
+
