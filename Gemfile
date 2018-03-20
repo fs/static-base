@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-ruby "2.2.2"
+ruby "2.4.2"
 
-gem "middleman-core"
+gem "middleman-core", "3.4.1"
 gem "middleman-sprockets"
-gem "middleman-livereload"
+gem "middleman-livereload", "3.4.6"
 gem "middleman-deploy"
 gem "middleman-google-analytics"
 gem "middleman-autoprefixer"
@@ -18,3 +18,5 @@ gem "uglifier"
 gem "scss-lint"
 
 gem "foundation-rails", require: false
+
+gem "bundler-audit"
