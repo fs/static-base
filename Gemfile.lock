@@ -70,7 +70,7 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    loofah (2.1.1)
+    loofah (2.2.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     middleman-autoprefixer (2.5.0)
@@ -201,7 +201,7 @@ DEPENDENCIES
   uglifier
 
 RUBY VERSION
-   ruby 2.4.2p198
+   ruby 2.4.3p205
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
